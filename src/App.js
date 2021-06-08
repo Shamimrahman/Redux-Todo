@@ -1,9 +1,10 @@
 import React from 'react'
+import Todoform from './component/Todoform'
 
 const App = () => {
   return (
     <div>
-      <h1>To Do list</h1>
+     <Todoform></Todoform>
     </div>
   )
 }
