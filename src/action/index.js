@@ -1,9 +1,13 @@
 //three action
 //add ,delete ,clear all
 
-export const add=()=>{
+export const add=(data)=>{
     return{
-        type:"ADD"
+        type:"ADD",
+        payload:{
+            id:new Date().getTime().toString(),
+            data:data
+        }
     }
 }
 
